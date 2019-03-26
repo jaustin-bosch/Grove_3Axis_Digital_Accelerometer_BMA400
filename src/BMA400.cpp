@@ -240,5 +240,3 @@ void BMA400::read(uint8_t reg, uint8_t *buf, uint16_t len)
         for(uint16_t i = 0; i < len; i ++) buf[i] = Wire.read();
     }
 }
-
-BMA400 bma400;

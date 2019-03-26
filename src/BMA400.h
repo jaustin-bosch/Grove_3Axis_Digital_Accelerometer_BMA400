@@ -228,6 +228,4 @@ class BMA400
     
 };
 
-extern BMA400 bma400;
-
 #endif
